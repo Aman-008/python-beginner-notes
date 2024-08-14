@@ -16,10 +16,14 @@ result = len(name)
 print("Hello " + name + ". Your lucky number is :  " + str(result))
 '''
 
-def circle_area(radius):
-    pi = 3.14
-    area = pi * (radius ** 2)
-    print(area)
+# def circle_area(radius):
+#     pi = 3.14
+#     area = pi * (radius ** 2)
+#     print(area)
 
-circle_area(5)
+# circle_area(5)
 #Output is 78.5
+
+
+print("cat"=="dog")
+print("Yellow" > "Cyan")
