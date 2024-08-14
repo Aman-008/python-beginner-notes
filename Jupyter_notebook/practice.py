@@ -25,5 +25,8 @@ print("Hello " + name + ". Your lucky number is :  " + str(result))
 #Output is 78.5
 
 
-print("cat"=="dog")
-print("Yellow" > "Cyan")
+# print("cat"=="dog")
+# print("Yellow" > "Cyan")
+
+
+print(2+2*(-1))
