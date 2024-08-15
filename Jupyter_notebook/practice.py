@@ -31,6 +31,8 @@ print("Hello " + name + ". Your lucky number is :  " + str(result))
 
 #print(2+2*(-1))
 
+'''
+
 
 # This function rounds a variable number up to the nearest 10x value
 def round_up(number):
@@ -50,3 +52,17 @@ def round_up(number):
  
 # Calls the function with the parameter value of 35.
 print(round_up(35)) # Should print 40
+
+
+'''
+
+'''
+
+x =   0
+while x < 5:
+    print("value",x,":")
+    print("Not there yet, x=" + str(x))
+    x = x + 1
+print("x=" + str(x))
+
+'''
