@@ -120,6 +120,10 @@ print(sum, product)
 '''
 
 
+
+'''
+
+
 # This function counts the number of integer factors for a 
 # "given_number" variable, passed through the function’s parameters.
 # The "count" return value includes the "given_number" itself as a 
@@ -161,3 +165,36 @@ print(count_factors(0)) # Count value should be 0
 print(count_factors(3)) # Should count 2 factors (1x3)
 print(count_factors(10)) # Should count 4 factors (1x10, 2x5)
 print(count_factors(24)) # Should count 8 factors (1x24, 2x12, 3x8, and 4x6). 
+
+'''
+
+
+'''
+
+def is_power_of_two(number):
+  if number <= 0:
+    return False
+  # This while loop checks if the "number" can be divided by two
+  # without leaving a remainder. How can you change the while loop to
+  # avoid a Python ZeroDivisionError?
+  while number % 2 == 0:
+    number = number // 2
+    # print(type(number))
+  # If after dividing by 2 "number" equals 1, then "number" is a power
+  # of 2.
+  if number == 1:
+    return True
+  return False
+  
+# Calls to the function
+print(is_power_of_two(0)) # Should be False
+print(is_power_of_two(1)) # Should be True
+print(is_power_of_two(8)) # Should be True
+print(is_power_of_two(9)) # Should be False
+
+
+'''
+
+
+for x in range(0,101,10):
+  print(x)
