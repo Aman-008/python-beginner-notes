@@ -196,5 +196,11 @@ print(is_power_of_two(9)) # Should be False
 '''
 
 
-for x in range(0,101,10):
-  print(x)
+# for x in range(0,101,10):
+#   print(x)
+
+
+for left in range(7):
+  for right in range(left, 7):
+    print("[" + str(left) + "|" + str(right) + "]", end=" ")
+  print()
