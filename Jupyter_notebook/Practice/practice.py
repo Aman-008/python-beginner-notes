@@ -200,7 +200,12 @@ print(is_power_of_two(9)) # Should be False
 #   print(x)
 
 
-for left in range(7):
-  for right in range(left, 7):
-    print("[" + str(left) + "|" + str(right) + "]", end=" ")
-  print()
+# for left in range(7):
+#   for right in range(left, 7):
+#     print("[" + str(left) + "|" + str(right) + "]", end=" ")
+#   print()
+
+
+# Complete the code to solve the task
+text = "Playground"
+print(text[6:1:-1])
