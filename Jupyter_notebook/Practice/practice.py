@@ -206,6 +206,23 @@ print(is_power_of_two(9)) # Should be False
 #   print()
 
 
+'''
+
 # Complete the code to solve the task
 text = "Playground"
 print(text[6:1:-1])
+
+'''
+
+
+'''
+string = 'bolloon'
+
+# use this variable to count occurrences of o
+count_o = 0      
+for char in string:
+    if char == 'o':
+        count_o+=1
+print(count_o)
+
+'''
