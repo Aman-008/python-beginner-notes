@@ -226,3 +226,11 @@ for char in string:
 print(count_o)
 
 '''
+
+
+
+a = input()
+if a == 'A' or a == 'a' or a == 'e' or a == "E" or a=='i' or a == "I" or a == 'o' or a == "O" or a == 'U' or a=='u':
+  print("vowel")
+else:
+  print("not a vowel")
