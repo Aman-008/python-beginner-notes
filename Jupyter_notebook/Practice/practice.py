@@ -236,3 +236,46 @@ print(count_o)
 #   print("not a vowel")
 
 
+# # Get input from the user
+# user_input = input("Enter a character: ")
+
+# # Check if the input is a single character and is alphabetic
+# if len(user_input) == 1 and user_input.isalpha():
+#     print("The input is a character.")
+# elif len(user_input)==1 :
+#   print("digit")
+# else:
+#     print("The input is not a character.")
+
+
+
+# convert 
+# number = int(input("N: "))
+# rounded_number = round(number, 2)
+# formatted_number = "{:.2f}".format(rounded_number)
+# print(formatted_number)
+# formatted_number = "{:.4f}".format(rounded_number)
+# print(formatted_number)
+
+
+# number = float(input("number: "))
+# print(str(number))
+# print(int(number))
+
+# a,b,c,d,e = map(int,input().split())
+# print(a,"#",b,"#",c,"#",d,"#",e,"#",sep="")
+
+# num1 = int(input("Enter num1: "))
+# num2 = int(input("Enter num2: "))
+# print("Modulus of",num1,"and",num2,"= ",num1%num2)
+# print("Floor Division of",num1,"and",num2,"=",num1//num2)
+
+
+
+# p = int(input())
+# q = int(input())
+# r = p**q
+# print(r)
+# s = r^p
+# print(s)
+# print(s>r)
