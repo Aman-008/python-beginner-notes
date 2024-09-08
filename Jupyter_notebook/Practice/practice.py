@@ -317,25 +317,34 @@ print(count_o)
 
 
 
-S = "Python is a programming language"
+# S = "Python is a programming language"
 
-# Take inputs from the user
-a = input("Enter the first string to check: ")
-b = input("Enter the second string to check: ")
-c = input("Enter the third string to check: ")
+# # Take inputs from the user
+# a = input("Enter the first string to check: ")
+# b = input("Enter the second string to check: ")
+# c = input("Enter the third string to check: ")
 
-# Check if each input is present in S and print the boolean result
-if a in S:
-    print(f"'{a}' present: {True}")
-else:
-    print(f"'{a}' present: {False}")
+# # Check if each input is present in S and print the boolean result
+# if a in S:
+#     print(f"'{a}' present: {True}")
+# else:
+#     print(f"'{a}' present: {False}")
 
-if b in S:
-    print(f"'{b}' present: {True}")
-else:
-    print(f"'{b}' present: {False}")
+# if b in S:
+#     print(f"'{b}' present: {True}")
+# else:
+#     print(f"'{b}' present: {False}")
 
-if c in S:
-    print(f"'{c}' present: {True}")
-else:
-    print(f"'{c}' present: {False}")
+# if c in S:
+#     print(f"'{c}' present: {True}")
+# else:
+#     print(f"'{c}' present: {False}")
+
+
+
+a = int(input())
+b = int(input())
+c = a>b
+d = a>=b
+print(c)
+print(d)
