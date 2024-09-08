@@ -279,3 +279,14 @@ print(count_o)
 # s = r^p
 # print(s)
 # print(s>r)
+
+
+a = int(input())
+b = int(input())
+c = a >> b
+print(c)
+d = a<<b
+print(d)
+print(c&d)
+print(c|d)
+print(c^d)
