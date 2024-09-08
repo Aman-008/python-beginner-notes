@@ -281,12 +281,61 @@ print(count_o)
 # print(s>r)
 
 
-a = int(input())
-b = int(input())
-c = a >> b
-print(c)
-d = a<<b
-print(d)
-print(c&d)
-print(c|d)
-print(c^d)
+# a = int(input())
+# b = int(input())
+# c = a >> b
+# print(c)
+# d = a<<b
+# print(d)
+# print(c&d)
+# print(c|d)
+# print(c^d)
+
+
+# a = input()
+# b = input()
+# c = ord(a)
+# d = ord(b)
+# print("c&d=",c&d)
+# print("c|d=",c|d)
+# print("~c=",~c)
+# print("c^d=",c^d)
+
+
+# S = "Python is a programming language"
+# a = input()
+# b = input()
+# c = input()
+# if a in S:
+  
+# elif b in S:
+#   print(bool(b))
+# elif c in S:
+
+
+
+
+
+
+S = "Python is a programming language"
+
+# Take inputs from the user
+a = input("Enter the first string to check: ")
+b = input("Enter the second string to check: ")
+c = input("Enter the third string to check: ")
+
+# Check if each input is present in S and print the boolean result
+if a in S:
+    print(f"'{a}' present: {True}")
+else:
+    print(f"'{a}' present: {False}")
+
+if b in S:
+    print(f"'{b}' present: {True}")
+else:
+    print(f"'{b}' present: {False}")
+
+if c in S:
+    print(f"'{c}' present: {True}")
+else:
+    print(f"'{c}' present: {False}")
