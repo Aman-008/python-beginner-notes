@@ -342,9 +342,73 @@ print(count_o)
 
 
 
-a = int(input())
-b = int(input())
-c = a>b
-d = a>=b
-print(c)
-print(d)
+# a = int(input())
+# b = int(input())
+# c = a>b
+# d = a>=b
+# print(c)
+# print(d)
+
+
+# f1 = 78.98; f2 = 78.98; 
+# print(f1 is f2)
+
+# a = 1.0; b = 1.0; print(a is b)
+# a = 1.0; b = 1.0; print(a , b)
+
+
+# total = 0
+# for i in range(1, 51):
+#     total += i
+#     if total > 200:
+#         print(f"Sum exceeded 200 at number {i}")
+#         break
+# print(f"The total sum is {total}")
+
+
+# num = 10
+# i = 1
+# while i<= num:
+  
+#   if i % 5 == 0:
+#     print(i)
+#     break
+#   i+=1
+
+# for i in range(1,101):
+#   if i % 4 == 0 and i % 6 == 0:
+#     print(i)
+#     break
+#   i+=1
+
+
+# for i in range(1,15):
+#   if i == 10:
+#     print(f"Found It {i}")
+#     break
+#   print(i)
+#   i+=1
+
+
+
+'''
+words = ["hello", "apple", "banana", "stop", "orange", "grape"]
+for word in words:
+    if "a" in word:
+        continue
+    if word == "stop":
+        break
+    print(word)
+    
+'''
+
+# for i in range(7,-2,-9):
+#     for j in range(i):
+#         print(j)
+
+
+import sys
+
+myNumbers = [10, 20, 30, 40, 50]
+size_of_int = sys.getsizeof(myNumbers[3])
+print(size_of_int)
