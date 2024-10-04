@@ -407,8 +407,19 @@ for word in words:
 #         print(j)
 
 
-import sys
+# import sys
 
-myNumbers = [10, 20, 30, 40, 50]
-size_of_int = sys.getsizeof(myNumbers[3])
-print(size_of_int)
+# myNumbers = [10, 20, 30, 40, 50]
+# size_of_int = sys.getsizeof(myNumbers[3])
+# print(size_of_int)
+
+
+
+# Write your code here
+# n = int(input())
+# for i in range(0,n):
+#     x = list(map(int,input().split()))
+#     print(x[0]*x[2])
+
+my_tuple = (1, 2, 3, 4, 55, 66)
+print(my_tuple.index(66))
